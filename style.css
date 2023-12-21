@@ -1,0 +1,72 @@
+body{
+    background: url(itgenio.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav{
+    position:fixed;
+    top:0;
+    right: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav img{
+    transform: scale(-1, 1);
+    width: 100px;
+
+}
+.box{
+
+    width:80%;
+    margin:0 auto;
+    background: rgba(255,255,255,0.7);
+}
+header h1{
+    text-align:center;
+    color:#EF7418;
+    font-size:45px;
+    padding: 150px 0;
+}
+h2{
+    color:#EF7418;
+}
+span{
+   font-size: 1.5em;
+    font-weight: bold;
+}
+table{
+    width:95%; 
+    margin: 0 auto;  
+    
+}
+td{
+    vertical-align: top;
+    width: 30%; 
+    text-align: justify;
+}
+table:nth-child(2){
+
+    width: 80%;
+    margin:0 auto;
+}
+input[type="text"]{
+
+    width: 20px;
+}
+.code{
+
+    color:royalblue;
+}
+.avatar{
+    width: 300px;
+}
+footer h2{
+    width: 100%;
+    text-align: center;
+}
